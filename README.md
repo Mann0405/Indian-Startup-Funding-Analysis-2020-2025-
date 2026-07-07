@@ -85,21 +85,21 @@ Performed exploratory data analysis (EDA) using SQL to understand funding patter
 - **Total Industries**: Funding activity spans across 14 different industries.
 - **Top Funded Industry**: FoodTech emerged as the highest-funded industry during the analysis period.
 
-📈 Funding Trend by Year: The line chart shows the yearly funding trend from 2020 to 2025.
+📈 **Funding Trend by Year**: The line chart shows the yearly funding trend from 2020 to 2025.
 
-🌍 Funding Distribution by City: The map displays the geographical distribution of startup funding across major Indian cities.
+🌍 **Funding Distribution by City**: The map displays the geographical distribution of startup funding across major Indian cities.
 
-🚀 Top Funded Startups: The column chart ranks top 5 startups by total funding raised.
+🚀 **Top Funded Startups**: The column chart ranks top 5 startups by total funding raised.
 
-🏭 Top Funded Industries: The bar chart shows top 5 industries based on total funding received.
+🏭 **Top Funded Industries**: The bar chart shows top 5 industries based on total funding received.
 
 ### Page 2 – Detailed Analysis
 
-💵 Investment Type Analysis: The combo chart compares the total number of investment deals with the average funding amount across different investment types.
+💵 **Investment Type Analysis**: The combo chart compares the total number of investment deals with the average funding amount across different investment types.
 
-🤝 Most Active Investors: The bar chart ranks investors based on their participation in funding rounds.
+🤝 **Most Active Investors**: The bar chart ranks investors based on their participation in funding rounds.
 
-📍 Industry Positioning: Deals vs Average Funding: A scatter plot comparing industries by total number of deals (X-axis) and average funding per deal (Y-axis).
+📍 **Industry Positioning: Deals vs Average Funding**: A scatter plot comparing industries by total number of deals (X-axis) and average funding per deal (Y-axis).
 
 ## 💡 Key Insights
 
