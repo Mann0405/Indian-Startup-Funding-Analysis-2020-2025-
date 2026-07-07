@@ -78,12 +78,12 @@ Performed exploratory data analysis (EDA) using SQL to understand funding patter
 
 ## Dashboard Walkthrough
 ### Page 1 – Executive Overview
-💰 KPI Cards
-- Total Funding: $28.09 Billion total funding was raised by Indian startups between 2020 and 2025
-- Total Deals: A total of 1,100 investment deals were recorded during the analysis period.
-- Total Startups: The dataset contains funding information for 130 unique startups.
-- Total Industries: Funding activity spans across 14 different industries.
-- Top Funded Industry: FoodTech emerged as the highest-funded industry during the analysis period.
+💰 **KPI Cards**
+- **Total Funding**: $28.09 Billion total funding was raised by Indian startups between 2020 and 2025
+- **Total Deals**: A total of 1,100 investment deals were recorded during the analysis period.
+- **Total Startups**: The dataset contains funding information for 130 unique startups.
+- **Total Industries**: Funding activity spans across 14 different industries.
+- **Top Funded Industry**: FoodTech emerged as the highest-funded industry during the analysis period.
 
 📈 Funding Trend by Year: The line chart shows the yearly funding trend from 2020 to 2025.
 
@@ -126,8 +126,8 @@ Performed exploratory data analysis (EDA) using SQL to understand funding patter
 ## Dashboard
 ### 1. Executive Overview Page
 
-<img width="1000" height="900" src="" />
+<img width="1000" height="900" src="https://github.com/Mann0405/Indian-Startup-Funding-Analysis-2020-2025-/blob/main/Snapshot%20of%20Executive%20Overview%20Page.PNG" />
 
 ### 2. Detailed Analysis Page
 
-<img width="1000" height="900" src="" />
+<img width="1000" height="900" src="https://github.com/Mann0405/Indian-Startup-Funding-Analysis-2020-2025-/blob/main/Snapshot%20of%20Detailed%20Analysis%20Page.PNG" />
