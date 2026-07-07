@@ -7,9 +7,9 @@ To analyze the Indian startup funding ecosystem from 2020 to 2025 by identifying
 The dashboard was built using the following tools and technologies:<br>
 • 🐘 PostgreSQL – Database used for data storage, cleaning, transformation, and SQL analysis.<br>
 • 📝 SQL – Used for data querying, aggregation, window functions, CTEs, ranking, and business analysis.<br>
-•	📊 Power BI Desktop – Main data visualization platform used for report creation.<br>
-•	📂 Power Query – Data transformation and cleaning layer for reshaping and preparing the data.<br>
-•	🧠 DAX (Data Analysis Expressions) – Used for calculated measures, dynamic visuals, and conditional logic.<br>
+• 📊 Power BI Desktop – Main data visualization platform used for report creation.<br>
+• 📂 Power Query – Data transformation and cleaning layer for reshaping and preparing the data.<br>
+• 🧠 DAX (Data Analysis Expressions) – Used for calculated measures, dynamic visuals, and conditional logic.<br>
 • 📄 CSV Dataset – Source data containing Indian startup funding records (2020–2025).<br>
 • 📁 File Formats – .pbix for dashboard development, .sql for SQL analysis, .csv for the dataset, and .png for dashboard previews.<br>
 • 🐙 Git & GitHub – Used for version control, project documentation, and portfolio hosting.<br>
@@ -78,42 +78,56 @@ Performed exploratory data analysis (EDA) using SQL to understand funding patter
 
 ## Dashboard Walkthrough
 ### Page 1 – Executive Overview
+💰 KPI Cards
+- Total Funding: $28.09 Billion total funding was raised by Indian startups between 2020 and 2025
+- Total Deals: A total of 1,100 investment deals were recorded during the analysis period.
+- Total Startups: The dataset contains funding information for 130 unique startups.
+- Total Industries: Funding activity spans across 14 different industries.
+- Top Funded Industry: FoodTech emerged as the highest-funded industry during the analysis period.
 
-#### 💰 KPI Cards
-- Total Funding Raised
-- Total Investment Deals
-- Total Startups
-- Total Industries
-- Top Funded Industry
+📈 Funding Trend by Year: The line chart shows the yearly funding trend from 2020 to 2025.
 
-#### 📈 Funding Trend by Year
-Displays the annual funding trend from 2020 to 2025, helping identify periods of growth, decline, and recovery in startup investments.
+🌍 Funding Distribution by City: The map displays the geographical distribution of startup funding across major Indian cities.
 
-#### 🏭 Top Funded Industries
-Ranks industries based on total funding received, highlighting the sectors that attracted the highest investment.
+🚀 Top Funded Startups: The column chart ranks top 5 startups by total funding raised.
 
-#### 🌍 Funding Distribution by City
-Visualizes funding across major Indian startup hubs, allowing easy comparison of regional investment activity.
-
-
-#### 🚀 Top Funded Startups
-Displays the startups that secured the highest total funding during the analysis period.
+🏭 Top Funded Industries: The bar chart shows top 5 industries based on total funding received.
 
 ### Page 2 – Detailed Analysis
 
-#### 💵 Investment Type Analysis
-A combo chart comparing:
-- Number of investment deals
-- Average funding amount
+💵 Investment Type Analysis: The combo chart compares the total number of investment deals with the average funding amount across different investment types.
 
-This helps understand how funding size changes across different investment stages.
+🤝 Most Active Investors: The bar chart ranks investors based on their participation in funding rounds.
 
-#### 🤝 Top Active Investors
-Ranks investors based on their participation across funding rounds, identifying the most active investors in the ecosystem.
+📍 Industry Positioning: Deals vs Average Funding: A scatter plot comparing industries by total number of deals (X-axis) and average funding per deal (Y-axis).
 
-#### 📍 Industry Positioning
-A scatter plot comparing industries by:
-- Total Deal Count
-- Average Funding
+## 💡 Key Insights
 
-This visualization helps distinguish industries with high investment activity from those receiving larger average investments per deal.
+- Indian startups attracted **$28.09 Billion** in funding through **1,100 investment deals** between **2020 and 2025**, reflecting strong investment activity in the startup ecosystem.
+
+- Funding peaked in **2021 ($6.02B)**, declined during **2022–2023**, and rebounded in **2024 ($5.98B)**, indicating fluctuations in investor sentiment and market conditions. It was lower in 2025 due to partial-year data.
+
+- **FoodTech** emerged as the highest-funded industry with **$3.48 Billion**, followed by **Consumer Electronics ($2.70B)** and **Retail ($2.67B)**, highlighting strong investor preference for consumer-focused sectors.
+
+- Subvertical analysis revealed that investors preferred specialized business models within industries. **EV (Mobility)**, **Fashion (Retail)**, **Cloud Kitchen (FoodTech)**, **Content (Media)**, and **Wearables (Consumer Electronics)** received the highest funding within their respective industries.
+
+- Startup analysis showed that **NextSense** raised the highest funding (**$1.00B**), followed by **HomeFoods**, **Unacademy**, **CoreSpace**, and **NeoSense**, indicating that funding was concentrated among a small number of high-growth startups.
+
+- Funding was concentrated in major startup hubs such as **Pune, Kolkata, Delhi, Gurugram, Chennai, and Bengaluru**, emphasizing the importance of established startup ecosystems in attracting capital.
+
+- **Seed** funding recorded the highest number of deals, demonstrating strong investor confidence in early-stage startups, while **Growth** and **Private Equity** rounds had the highest average funding per deal, reflecting larger capital requirements at later stages.
+
+- 🤝 **Tiger Global** emerged as the most active investor, participating in **140 funding deals**, significantly ahead of **Y Combinator (84)** and **Mirae Asset (83)**. This highlights Tiger Global's strong and consistent involvement in India's startup funding ecosystem.
+
+- Industry positioning analysis showed that high deal volume does not always correspond to high average funding, indicating differences in capital intensity and investment strategies across industries.
+
+- The combination of SQL analysis and Power BI dashboards transformed raw funding data into actionable insights, enabling easy identification of investment trends, high-performing sectors, active investors, and emerging startup opportunities.
+
+## Dashboard
+### 1. Executive Overview Page
+
+<img width="1000" height="900" src="" />
+
+### 2. Detailed Analysis Page
+
+<img width="1000" height="900" src="" />
